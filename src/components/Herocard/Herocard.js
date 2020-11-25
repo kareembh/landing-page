@@ -1,12 +1,14 @@
 import React from 'react';
 import './Herocard.scss'
+import Button from '../Button/Button'
 
-export default Herocard = (props) =>{
+ const Herocard = (props) => {
     return(
-        <div>
-            <h2>{props.hero-card-title}</h2>
-            <p>{props.hero-card-body}</p>   
+        <div className="hero-card">
+           <h2>{props.heroCardTitle}</h2>
+           <p>{props.heroCardBody}</p>
+           <Button buttonText={props.buttonText}/>
         </div>
     );
 }
-
+export default Herocard;

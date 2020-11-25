@@ -1,12 +1,15 @@
 import './App.scss';
 import Herocard from '../Herocard/Herocard';
+import Navbar from '../Navbar/Navbar';
 
-function App() {
+const App = () => {
   return (
     <div className="landing-section">
+      <Navbar />
       <Herocard 
-        hero-card-title="Lorem ipsum dolor"
-        hero-card-body="this is the body"
+        heroCardTitle="Lorem ipsum dolor"
+        heroCardBody="this is the body"
+        buttonText="Contact"
       />
     </div>
   );
