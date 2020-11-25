@@ -2,6 +2,7 @@ import React from 'react';
 import './Herocard.scss'
 import Button from '../Button/Button'
 
+
  const Herocard = (props) => {
     return(
         <div className="hero-card">

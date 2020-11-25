@@ -2,14 +2,20 @@ import './App.scss';
 import Herocard from '../Herocard/Herocard';
 import Navbar from '../Navbar/Navbar';
 
+
+
+const title= "Lorem ipsum dolor";
+const body= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor ultricies sollicitudin eget tellus nec orci, mi. Pharetra sit egestas sit amet, purus. Eget ornare faucibus et volutpat. In elit adipiscing massa non magna id.";
+const buttonText= "Contact";
+
 const App = () => {
   return (
     <div className="landing-section">
       <Navbar />
       <Herocard 
-        heroCardTitle="Lorem ipsum dolor"
-        heroCardBody="this is the body"
-        buttonText="Contact"
+        heroCardTitle={title}
+        heroCardBody={body}
+        buttonText={buttonText}
       />
     </div>
   );

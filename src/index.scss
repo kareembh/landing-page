@@ -1,3 +1,41 @@
+@import './styles/variables.scss';
+
 body {
   margin: 0;
+}
+
+h1{
+  font-family: $font-stack;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+h2{
+  font-family: $font-stack;
+  font-size: 51px;
+  font-weight: 800;
+}
+
+h3{
+  font-family: $font-stack;
+  font-size: 36px;
+  font-weight: regular;
+}
+
+h4{
+  font-family: $font-stack;
+  font-size: 25px;
+  font-weight: regular;
+}
+
+h5{
+  font-family: $font-stack;
+  font-size: 18px;
+  font-weight: regular;
+}
+
+h6{
+  font-family: $font-stack;
+  font-size: 14px;
+  font-weight: regular;
 }

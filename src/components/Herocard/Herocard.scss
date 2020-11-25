@@ -2,4 +2,17 @@
 
 .hero-card{
     color: $primary-two-color;
+    position: absolute;
+    max-width: 571px;
+    height: 299px;
+    left: 122px;
+    top: 200px;
+}
+p{
+    font-size: 18px;
+    max-width: 430px;
+}
+
+Button{
+    margin-top: 45px;
 }

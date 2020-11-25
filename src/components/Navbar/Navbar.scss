@@ -1,5 +1,24 @@
 @import '../../styles/variables.scss';
 
-div{
+.navbar{
     color: $primary-two-color;
+}
+.navbar-menu-container{
+    max-width: 500px;
+}
+
+.navbar-menu{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-menu-item{
+
+}
+
+.branding{
+    h3{
+        margin-top: 0;
+    }
 }
