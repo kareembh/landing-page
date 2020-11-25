@@ -2,19 +2,8 @@
 
 .navbar{
     color: $primary-two-color;
-    
-}
-.navbar-menu-container{
-
-}
-
-.navbar-menu{
-    list-style-type:none;
-    display: flex;
+    flex-direction: row;
     align-items: center;
-}
-
-.navbar-menu-item{
     
 }
 
@@ -23,3 +12,19 @@
         margin-top: 0;
     }
 }
+
+.navbar-menu-container{
+    max-width: 600px;
+}
+
+.navbar-menu{
+    list-style-type:none;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu-item{
+    
+}
+
