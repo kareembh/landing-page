@@ -4,13 +4,20 @@
     color: $primary-two-color;
     flex-direction: row;
     align-items: center;
-    
+    display: flex;
+
+    justify-content: space-between;
 }
 
 .branding{
     h3{
         margin-top: 0;
+
+        @include media-lte-sm {
+            font-size: 14px;
+        }
     }
+
 }
 
 .navbar-menu-container{
@@ -22,6 +29,14 @@
     max-width: 400px;
     display: flex;
     justify-content: space-between;
+
+    li {
+        margin: 0 12px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 .navbar-menu-item{

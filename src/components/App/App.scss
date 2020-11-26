@@ -1,12 +1,17 @@
 @import '../../styles/variables';
 
 .landing-section{
-    background-image: url('../../assets/landing-page-background.jpg');
-    background-color: $primary-one-color;
+    background: $primary-one-color url('../../assets/landing-page-background.jpg') center / cover no-repeat;
     width: 100%;
     height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content-container {
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }

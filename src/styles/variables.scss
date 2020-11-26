@@ -7,3 +7,9 @@ $accent-color:#CE2D4F;
 //Font (this should probably go into a scss config)
 $font-stack:'Open Sans', sans-serif;
 
+// Media query mixins
+@mixin media-lte-sm {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
