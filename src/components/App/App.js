@@ -11,12 +11,14 @@ const buttonText= "Contact";
 const App = () => {
   return (
     <div className="landing-section">
-      <Navbar />
-      <Herocard 
-        heroCardTitle={title}
-        heroCardBody={body}
-        buttonText={buttonText}
-      />
+      <div className="content-container">
+        <Navbar />
+        <Herocard 
+          heroCardTitle={title}
+          heroCardBody={body}
+          buttonText={buttonText}
+        />
+      </div>
     </div>
   );
 }
