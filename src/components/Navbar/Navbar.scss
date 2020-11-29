@@ -5,8 +5,11 @@
     flex-direction: row;
     align-items: center;
     display: flex;
-
     justify-content: space-between;
+    max-width: 1000px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .branding{
@@ -17,7 +20,6 @@
             font-size: 14px;
         }
     }
-
 }
 
 .navbar-menu-container{
@@ -39,7 +41,4 @@
     }
 }
 
-.navbar-menu-item{
-    
-}
 
