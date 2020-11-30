@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.hamburger{
+    cursor: pointer;
+}
+
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: $primary-two-color;
+    margin: 5px;
+}
+
+.hamburger-menu-item{
+    list-style: none;
+    //Use display flex to see menu and display none to hide menu
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: $secondary-color;
+    width: 150px;
+    height: 50px;
+    border-bottom: 1px solid $secondary-color;
+    justify-content: center;
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-two-color;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import MediaQuery from 'react-responsive'
+import Hamburger from '../Hamburger/Hamburger';
 
 import './Navbar.scss';
 
@@ -9,6 +10,7 @@ const menuItems = [
     'About me',
     'Contact',
 ];
+
 
 const Navbar = () => (
     <div className="navbar">
@@ -24,7 +26,7 @@ const Navbar = () => (
                 </ul>
             </MediaQuery>
             <MediaQuery maxWidth={768}>
-                <button>🍔</button>
+                <Hamburger menuItems={menuItems}/>
             </MediaQuery>
         </div>
     </div>
